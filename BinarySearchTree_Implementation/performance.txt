@@ -1,0 +1,75 @@
+Linked
+======
+
+10: linkedmap over 10 iterations.
+[1491198230531 linked] put loop count: 45
+[1491198230531 linked] get loop count: 100
+
+100: linkedmap over 100 iterations.
+[1491198259647 linked] put loop count: 4950
+[1491198259647 linked] get loop count: 10000
+
+1,000: linkedmap over 1000 iterations.
+[1491198283617 linked] put loop count: 499500
+[1491198283617 linked] get loop count: 1000000
+
+10,000: linkedmap over 10000 iterations.
+[1491198304382 linked] put loop count: 49995000
+[1491198304382 linked] get loop count: 100000000
+
+100,000: linkedmap over 100000 iterations.
+[1491198359845 linked] put loop count: 704917961
+[1491198359845 linked] get loop count: 1409802887
+
+300,000: linkedmap over 300000 iterations.
+[1491198728281 linked] put loop count: 2048533116
+[1491198728281 linked] get loop count: -199478745
+
+Binary Search Tree
+==================
+
+10: bst   map over 10 iterations.
+[1491197387148 bst   ] put loop count: 21
+[1491197387148 bst   ] get loop count: 37
+
+100: bst   map over 100 iterations.
+[1491197428625 bst   ] put loop count: 617
+[1491197428625 bst   ] get loop count: 799
+
+1,000: bst   map over 1000 iterations.
+[1491197452869 bst   ] put loop count: 10345
+[1491197452869 bst   ] get loop count: 12420
+
+10,000: bst   map over 10000 iterations.
+[1491197485723 bst   ] put loop count: 154605
+[1491197485723 bst   ] get loop count: 174418
+
+100,000: bst   map over 100000 iterations.
+[1491197520951 bst   ] put loop count: 1927899
+[1491197520951 bst   ] get loop count: 2128791
+
+300,000: bst   map over 300000 iterations.
+[1491197560137 bst   ] put loop count: 6553259
+[1491197560137 bst   ] get loop count: 7149848
+
+1,000,000:  bst   map over 1000000 iterations.
+[1491197992648 bst   ] put loop count: 26728315
+[1491197992648 bst   ] get loop count: 28733617
+
+1,000,0000:  bst   map over 10000000 iterations.
+[1491197605968 bst   ] put loop count: 295636689
+[1491197605968 bst   ] get loop count: 315581010
+
+Questions
+=========
+
+1) Approximately how long did it take your computer to run the test for 300,000 iterations on the linked implementation?
+It took 40mins approx.
+
+
+2) What is the maximum value you can run the binary search tree implementation for and have it finish in less than a few seconds?
+Max value till which bst implementation finishes in few seconds is 1,000,000.
+
+ 
+ 
+NOTE: The a4.pdf asks us to evaluate for 1,000,000 in BST but performance.txt asks us to evaluate for 1,000,0000. Got confused hence tested for both and added under BST.
